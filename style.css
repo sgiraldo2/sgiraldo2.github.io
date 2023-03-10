@@ -1,5 +1,16 @@
+/* body {
+  margin: 0;
+} */
+
 body {
   margin: 0;
+  background-color: white;
+  color: black;
+}
+
+body.dark-mode {
+  background-color: black;
+  color: white;
 }
   /* BEGIN NEW NAV */
   nav {
@@ -105,7 +116,8 @@ body {
     font-size: 14px;
     text-align: center;
     padding: .5rem;
-    background-color: hsl(0, 30%, 93%);
+    background-color: #c0c0c2;
+    color:black;
   }
 
   .main-bottom {
@@ -126,6 +138,14 @@ body {
 
   .main-bottom li {
     margin-bottom: 10px;
+  }
+  #toggleButton {
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
   }
   
   /* Smaller screen size from here */
