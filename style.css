@@ -85,7 +85,15 @@ body.dark-mode {
     transition: ease-in 0.4s;
   }
 
-  
+  #toggleButton {
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
   /* END NEW NAV */
   
 
@@ -138,14 +146,6 @@ body.dark-mode {
 
   .main-bottom li {
     margin-bottom: 10px;
-  }
-  #toggleButton {
-    /* position: absolute; */
-    top: 0;
-    right: 0;
-    margin: 1rem;
-    font-size: 1.2rem;
-    cursor: pointer;
   }
   
   /* Smaller screen size from here */
